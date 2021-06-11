@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <RelativeLayout
+        android:id="@+id/top_r"
+        android:background="@drawable/top_bg"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:layout_margin="20dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorPrimary"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dp"/>
+
+
+
+        <TextView
+            android:fontFamily=""
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="15sp"
+            android:text="@string/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+        <ImageView
+            android:layout_margin="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/noti"
+            android:layout_alignParentRight="true"/>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_below="@+id/top_r"
+        android:layout_above="@+id/below_r"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/below_r"
+        android:background="@drawable/bottom_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/BNV"
+            android:layout_marginLeft="10dp"
+            app:itemIconSize="30dp"
+            app:labelVisibilityMode="unlabeled"
+            android:layout_centerVertical="true"
+            app:menu="@menu/bottom_nav"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:src="@drawable/add_post"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/post_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_marginLeft="80dp"
+                android:src="@drawable/luve"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sign_in"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/mlogo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/m_logo"/>
+
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/mlogo"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="280dp"
+            android:layout_height="350dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lil" />
+
+            <ImageView
+                android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lbl"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:hint="Username,Email Or Number..."
+                android:textSize="12sp"
+                android:paddingStart="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/largrect"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <EditText
+                android:inputType="textPassword"
+                android:id="@+id/pass"
+                android:hint="Password..."
+                android:textSize="12sp"
+                android:paddingStart="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/largrect"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Should We Remember You?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/SignIn"
+                android:layout_marginTop="20dp"
+                android:text="Log-In"
+                android:background="@drawable/medrect"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:text="Forgot Anything?Need Help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:src="@drawable/lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <TextView
+            android:text="Or Sign-In With..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/GsIn"
+                android:text="Google"
+                android:background="@drawable/medrect"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"/>
+
+
+            <Button
+                android:layout_marginLeft="5dp"
+                android:text="Facebook"
+                android:background="@drawable/medrect"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Dsup"
+            android:layout_marginTop="5dp"
+            android:text="Sign-Up Instead"
+            android:background="@drawable/largrect"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:text="Copyright © 2020"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

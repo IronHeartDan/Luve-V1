@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Luv-e</string>
+    <string name="user_name">Danish Khan</string>
+    <string name="post_name">Darknoon\'s Post</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

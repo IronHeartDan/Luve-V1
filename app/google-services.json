@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "333943312637",
+    "firebase_url": "https://luv-e-2fdf7.firebaseio.com",
+    "project_id": "luv-e-2fdf7",
+    "storage_bucket": "luv-e-2fdf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333943312637:android:dcd07109a9a1ed5719ae94",
+        "android_client_info": {
+          "package_name": "com.example.luv_e"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333943312637-ocsihja46ctupn8472qd97clpcovb09v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.luv_e",
+            "certificate_hash": "24c603d6485f1fd5e48bce399d367eab74608634"
+          }
+        },
+        {
+          "client_id": "333943312637-1m7a5q6ijm39quk8r6j86hgua232jrt3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.luv_e",
+            "certificate_hash": "008375c9b32aed9948e9605c0d66dec226b91ecc"
+          }
+        },
+        {
+          "client_id": "333943312637-qgrt8gingrek25hnd2h9tu1fikb15vkl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW5bMcXghbuPfl2PnSX_xFU1yt7qfUbPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333943312637-qgrt8gingrek25hnd2h9tu1fikb15vkl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
